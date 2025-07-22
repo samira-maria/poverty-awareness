@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 5px;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  background-color: #f8f7f8;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font-size: 120px;
+  font-weight: bold;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-shadow: 4px 2px #4f56ab;
+}
+
+h2 {
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #7980cd;
+  text-align:center;
+  margin: 45px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+h4 { 
+  color: #7980cd;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+p {
+  color: #2D3142;
+  text-align:center;
+  font-size: 17px;
+  padding-left:17%;
+  padding-right: 17%;
+  font-size: 18px;
+  padding-top: 3%;
+}
+
+a {
+  color:#7980cd;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #4f56ab;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li {
+  display:inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #ebedf4;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+li a:hover {
+  background-color: #8F94CC;
+}
+
+
+.header {
+  height: 100%;
+  line-height: 1.7;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.scroll {
+  background-color: #faf4ff;
+  padding: 10px 70px;
+  color: rgb(1, 1, 43);
+}
+
+#button{
+  margin-top: 5px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:0.16em solid #4f56ab;
+  background-color: #bfc1f3;
+  top: 50%;
+  width: 100%;
+}
+
+#button:active {
+  background-color: #ADB1FF;
+  box-shadow: 0 5px #2D3142;
+  transform: translateY(5px);
+}
+
+h6 {
+  color: #2D3142;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: .9em;
+}
+
+#bkg1 {
+  background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/poverty-and-the-lost-childhood-bliss-of-art.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#bkg2 {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75d3b243632133.5c0f970573d75.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+#bkg3 {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9d83b443632133.57f674d0a2ccc.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+
+#bkg4 {
+  background-image: url('https://media.npr.org/assets/img/2015/12/17/umbrella_wide-ef0baf5371d9dc5f51ba3acd814a10c5c6153386.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+.lists{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+#title-pg {
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 25%;
+}
+
+.credits {
+  padding: 0;
+  font-size: 10px;
+}
+
